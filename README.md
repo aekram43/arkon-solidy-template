@@ -1,5 +1,6 @@
 # yarn init
 yarn install
+
 yarn build
 
 # arkon-solidity-template
