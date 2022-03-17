@@ -1,6 +1,7 @@
+# Setup
+add your key to secrets.json
 # yarn init
 yarn install
-
 yarn build
 
 # arkon-solidity-template

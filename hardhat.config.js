@@ -50,7 +50,7 @@ module.exports = {
     hardhat: {
       initialBaseFeePerGas: 0
     },
-    arkobeta:{
+    arkonbeta:{
       url: 'http://34.124.255.240:8545',
       chainId: 55,
       gasPrice: 20*1e8,
