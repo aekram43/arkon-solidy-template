@@ -1,4 +1,8 @@
-# arkon-solidy-template
+# yarn init
+yarn install
+yarn build
+
+# arkon-solidity-template
 Arkon chain soilidity hardhat template development 
 
 Setting in hardhat.config
