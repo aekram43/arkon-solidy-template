@@ -10,12 +10,17 @@ Arkon chain soilidity hardhat template development
 Setting in hardhat.config
 
 Arkon chain testnet
+
 http://arkscan-testnet.arkon.network:4000/
+
 http://rpc-testnet.arkon.network:8545/
+
 Chain:8888
+
 Symbol:KON
 
 http://faucet-testnet.arkon.network:3000/
+
 
 
 # to custom etherscan library for validating contracts
@@ -23,7 +28,7 @@ http://faucet-testnet.arkon.network:3000/
 node_modules/@nomiclabs/hardhat-etherscan/dist/disc/ChainConfig.js
 //add this config below up
 
-arkonbeta: {
+arkontestnet: {
 
         chainId: 8888,
         
@@ -41,6 +46,6 @@ arkonbeta: {
  node_modules/@nomiclabs/hardhat-etherscan/dist/disc/types.d.ts
 //add this config below up
 
- | "arkonbeta"
+ | "arkontestnet"
     
  
