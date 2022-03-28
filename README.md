@@ -9,14 +9,13 @@ Arkon chain soilidity hardhat template development
 
 Setting in hardhat.config
 
-Arkon chain beta
-rpc: http://34.124.255.240:8545
+Arkon chain testnet
+http://arkscan-testnet.arkon.network:4000/
+http://rpc-testnet.arkon.network:8545/
+Chain:8888
+Symbol:KON
 
-chainID: 55
-
-blockexpleror :http://34.124.255.240:4000
-
-faucet :http://34.124.255.240:3000
+http://faucet-testnet.arkon.network:3000/
 
 
 # to custom etherscan library for validating contracts
@@ -26,13 +25,13 @@ node_modules/@nomiclabs/hardhat-etherscan/dist/disc/ChainConfig.js
 
 arkonbeta: {
 
-        chainId: 55,
+        chainId: 8888,
         
         urls: {
         
-            apiURL: "http://34.124.255.240:4000/api",
+            apiURL: "http://arkscan-testnet.arkon.network:4000/api",
             
-            browserURL: "http://34.124.255.240:4000",
+            browserURL: "http://arkscan-testnet.arkon.network:4000",
             
         },
         
