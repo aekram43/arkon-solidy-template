@@ -11,7 +11,7 @@ Setting in hardhat.config
 
 Arkon chain testnet
 
-http://arkscan-testnet.arkon.network:4000/
+http://testnet.arkscan.net/
 
 http://rpc-testnet.arkon.network:8545/
 
